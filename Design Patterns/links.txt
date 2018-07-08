@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/21113866/javascript-download-multiple-files-with-iframe

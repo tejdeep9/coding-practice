@@ -1,7 +1,7 @@
 /*
 1. create a getHeight function, and pass root->left and root->right seperately to these functions.
 2. if the height left subtree or right subtree is greater than 1 compared to each other the tree is not balanced.
-3. for the BST to be balanced the height differenc between left subtree and right subtree should be atmost one.
+3. for the BST to be balanced the height difference between left subtree and right subtree should be atmost one.
 
 Time Complexity: O(n). as algorithm visits all the nodes
 Space Complexity: O(H). H is the  height of the tree.

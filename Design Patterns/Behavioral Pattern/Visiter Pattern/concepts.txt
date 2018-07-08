@@ -1,0 +1,22 @@
+
+concepts
+- Separate Algorithm from the object structure
+- Adding new features to existing object structure
+- Maintain Open/Closed principle
+- Visitor changes
+Examples:
+	java.lang.model.element.Element
+	java.lang.model.element.ElementVisitor
+	
+Design:
+-interface based
+- visitor and element
+- Elements have visit method
+- Visitor knows every element
+- Visitor, ConcreteVisitor, Element, ConcreteElement
+
+pitfalls
+-plan for adaptability.
+-indirection somewhat confusing
+-Adapter pattern
+

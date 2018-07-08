@@ -1,0 +1,18 @@
+-Eliminate conditional statements
+-Behavior encapsualted in classes
+-Difficult to add new startegies
+-Client aware of strategies
+-Client chooses strategy
+Examples:
+	java.util.Comparator
+	
+Design:
+-Abstract base class
+-Concrete classs per strategy
+-Remove if/else conditionals
+-Strategies are independent
+-Context, Strategy, ConcreteStrategy
+
+Pitfalls:
+-client aware of strategies
+-increased number of classes

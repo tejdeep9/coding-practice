@@ -1,0 +1,19 @@
+-One to Many observers
+-decouple objects
+-Event Handling
+-pub/Sub
+-used in MVC pattern when the view is memory driven.
+-Examples: java.util.Observer
+
+Design:
+-Subject 
+-Observer
+-Observable
+-views are Observers
+-pieces of UML diagram are subject, Concrete Subject, Observer, Concrete Observer
+
+Pitfalls:
+-Unexpected updates
+-Large sized consequences
+-What changed
+-Debugging difficult

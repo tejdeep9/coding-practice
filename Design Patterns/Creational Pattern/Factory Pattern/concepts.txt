@@ -1,0 +1,20 @@
+-Doesnt expose instantiation logic
+-Parameter Driven.
+-Solves complex creation.
+-Defer to subclasses
+-common interface
+-specified by architecture, implemented by user
+Examples: Calender, ResourceBundle, NumberFormat
+
+Design:
+-Factory is responsible for lifecycle
+-Common Interface
+-Concrete Classses
+-Parameterized create method
+
+PitFalls:
+-Complexity
+-Creation in sublcass
+-Refactoring
+
+

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <cstring>
 using namespace std;
 
@@ -61,12 +62,51 @@ char* longestPalindromeSubString_N2(char* S)
 	
 	return res;
 }
-	
+
+
+bool checkPalindrome(string& str, int start, int end)
+{
+    int len= end-start+1;
+    
+    for(int i=start; i< start+(len/2) ; i++)
+    {
+        if(str[i] != str[end-(i-start)])
+            return false;
+    }
+    
+    return true;
+}
+void LonPalSubStr_Recur(string& str, int l)
+{   
+    int len=str.length();
+    if(l <= 1)
+    {
+        //there is no longest palindromic substring
+        return;
+    }
+    
+    //declare a sliding window for chekcing the given string is a palindrome
+    for(int i=0 ;i <= len-l; i++)
+    {
+        int j=i+l-1;
+        if(checkPalindrome(str, i,j ))
+        {
+            cout<<" The Longest Palindromic Substring is "<< str.substr(i,l)<<endl;
+            return;
+        }
+    }
+    
+    
+    LonPalSubStr_Recur(str, l-1);
+}
+
 
 int main() {
 	//char S[]="bananas";
 	char S[]="forgeeksskeegfor";
 	char* res=longestPalindromeSubString_N2(S);
+	string str="forgeeksskeegfor";
+	LonPalSubStr_Recur(str, str.length());
 	cout<<res<<endl;
 	return 0;
 }

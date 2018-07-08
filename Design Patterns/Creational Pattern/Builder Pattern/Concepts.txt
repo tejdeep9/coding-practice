@@ -1,0 +1,20 @@
+1. Handles complex constructors
+2. Constructors with large number of parameters
+3. Immutability ( we can force immutabliity)
+Examples: String Builder, Document Builder, Local.Builder
+
+
+Design:
+-Creating a constructors with multiple parameter variations is difficult to manage. creating a constrcutor with multiple parameters is called telescoping constructors.
+-Builder pattern will overcome this problem.
+-static inner class
+- calls appropriate constructor
+- negates the need of exposed setters
+
+Pitfalls:
+-immutable
+-static inner class
+-Designed first
+-Complexity
+
+

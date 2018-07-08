@@ -24,7 +24,7 @@ Node* getNewNode(int data){
 4. return the result.
 
 Time Complexity:	O(n).
-Space Complexity: O(logn) or O(H).   
+Space Complexity: O(n) 
 
 */
 list<list<Node*>> create_D_Lists_with_BFS(Node* root)

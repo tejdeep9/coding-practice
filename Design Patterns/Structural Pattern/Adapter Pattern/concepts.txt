@@ -1,0 +1,16 @@
+concepts:
+-Plug adaptor
+-Convert interface into another interface
+-Legacy
+-Translate requests
+-Client, Adapter, Adaptee
+Examples:
+-Arrays -> lists
+-Streams
+
+Design:
+-Client centric
+-Integrate new with old
+-Interface, but not required
+-Adaptee be the implementation
+

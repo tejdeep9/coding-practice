@@ -1,0 +1,11 @@
+you get a string with brackets, find if its balanced. 
+Matrix of 0 and 1, where one 1 is a wall, find shortest path from a starting posistion to an end position. 
+Given a string rearrage the char such that no two adjacent are same. 
+Given a graph with no -ve edges and no circles, find the closes 100 nodes form the origin. 
+The same with -ve edges and circles. 
+Given a log file with time stamps and signatures, find all signatures which occured with a diff of more than 1 hour. 
+Design a database authentication system. 
+These are what i remember ra. 
+But onsite lo, they were asking different algos for same problem. 
+And ofcourse you need to code all this, on a white board. 
+And also i need to give time and space complexity for everything. 
